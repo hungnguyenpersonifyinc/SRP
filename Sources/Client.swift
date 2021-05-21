@@ -4,7 +4,7 @@ import Cryptor
 
 /// SRP Client; the party that initializes the authentication and
 /// must proof possession of the correct password.
-public class Client {
+open class Client {
     let a: BigUInt
     let A: BigUInt
 
